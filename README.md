@@ -32,4 +32,4 @@ The following data structures are currently in progress:
 1. Graph
 
 ## Changelog
-Developed by Muhammad Umair on 1/4/2019
+Developed by Muhammad Umair, dated: Jan 4th, 2018.
