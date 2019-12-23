@@ -2,6 +2,7 @@
 
 ## About
 Repository containing major data structures implemented from scratch in C. 
+
 The implementation is inspired by David R. Hanson's implementation of various data structures.
 
 ## Implemented Stuctures
@@ -29,3 +30,6 @@ As of now, the following data structures have been implemented:
 ## In Progress
 The following data structures are currently in progress:
 1. Graph
+
+## Changelog
+- Developed by Muhammad Umair on 1/4/2019
