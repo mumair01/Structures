@@ -28,7 +28,6 @@ T UArray_copy(T uarray, int new_length);
 // Function that reverses the order of elements in the array
 void UArray_reverse(T uarray);
 
-
 /*
 	The compare function should be as follows:
 	- Return 1 if *p1 > *p2

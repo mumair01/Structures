@@ -541,7 +541,6 @@ void UArray_heap_sort(T ray_struct, int compare(void *p1, void *p2))
 
 }
 
-
 #undef T
 
 
