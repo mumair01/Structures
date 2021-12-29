@@ -1,12 +1,12 @@
 /* A heap is a binary search tree that has two properties:
-	1. It is a complete binary tree i.e. every node other than the 
+	1. It is a complete binary tree i.e. every node other than the
 		leaves has two children. The last level is the only one that
 		does not have to be completely filled. (shape)
 
-	2. A parent node in the heap must have values greater than or 
+	2. A parent node in the heap must have values greater than or
 		equal to or less than or equal to its children depending on
 		the type of heap. (order)
-		
+
 Min-heap:
 	- Heap where the parent node values are less than or equal to the
 		children values.

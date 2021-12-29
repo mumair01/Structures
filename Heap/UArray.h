@@ -1,8 +1,8 @@
 #ifndef UARRAY_H_
 #define UARRAY_H_
 
-#define T UArray_T 
-typedef struct T* T;
+#define T UArray_T
+typedef struct T *T;
 
 // Instantiate a new element of the UArray
 T UArray_new(int length, size_t elemSize);
@@ -17,7 +17,7 @@ int UArray_len(T uarray);
 size_t UArray_elemSize(T uarray);
 
 // Returns a pointer to an item in the array at given index.
-void * UArray_at(T uarray, int index);
+void *UArray_at(T uarray, int index);
 
 // Resizes the UArray to a new UArray
 void UArray_resize(T uarray, int new_length);
@@ -27,7 +27,6 @@ T UArray_copy(T uarray, int new_length);
 
 // Function that reverses the order of elements in the array
 void UArray_reverse(T uarray);
-
 
 /*
 	The compare function should be as follows:
@@ -57,8 +56,5 @@ void UArray_quick_sort_hoare(T uarray, int compare(void *p1, void *p2));
 // Heap sort algorithm implementation
 void UArray_heap_sort(T uarray, int compare(void *p1, void *p2));
 
-
 #undef T
 #endif
-
-
